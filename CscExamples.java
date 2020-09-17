@@ -4,13 +4,13 @@ int questionNo;
 string  catagory;
 String text;
 
-Public int setQuestionNo(){
+Public void setQuestionNo(){
 	this.questionNo=questionNo;
 }
-public String setCatagory(){
+public void setCatagory(){
    this.catagory=catagory;	
 } 
-public String setText(){
+public void setText(){
 	this.text=text;
 }
 }
