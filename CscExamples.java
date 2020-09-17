@@ -4,13 +4,26 @@ int questionNo;
 string  catagory;
 String text;
 
-Public void setQuestionNo(){
+Public void setQuestionNo(int questionNo){
 	this.questionNo=questionNo;
 }
-public void setCatagory(){
-   this.catagory=catagory;	
-} 
-public void setText(){
-	this.text=text;
+public int getQuestionNo(){
+	return questionNo;
 }
+public void setCatagory(String catagory){
+     this.catagory=catagory;
+} 
+public String getCatagory()
+{
+return catagory;	
+}
+public void setText(String text){
+this.text=text;
+	
+}
+public string getText(){
+	return text;
+}
+ 
+
 }
